@@ -4,7 +4,7 @@ public class EscritorSimples {
     public static void main(String[] args) {
         try {
         FileWriter escritor = new FileWriter("frase.txt");
-        escritor.write("O fonseca vai reprovar!");
+        escritor.write("A prática leva à perfeição!");
         escritor.close();
         System.out.println("Frase escrita com sucesso!");
         } catch (IOException e) {
